@@ -1,0 +1,20 @@
+// Pirnt diagonal array Left to right
+
+
+let array2d = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+    ];
+
+function diagonalArrayLtoR(array){
+    let i=0;
+    let j=0;
+    while(i<array.length){
+        console.log(array[i][j]);
+        i++;
+        j++;
+    }
+}
+
+diagonalArrayLtoR(array2d);
