@@ -1,3 +1,5 @@
+// Given a array A all elements will occur tiwice expect one element find that distinct element
+
 let solve = function (A) {
   let ans = 0;
 
