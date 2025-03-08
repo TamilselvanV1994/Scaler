@@ -1,7 +1,8 @@
-let solve = function (A) {
-  if (A == 1) return 1;
+// Factorial of N
 
-  return A * solve(A - 1);
+let solve = function (N) {
+  if (N == 1) return 1;
+  return N * solve(N - 1); // N*(N-1)(N-2)....1
 };
 
-console.log(solve(5)); //120
+console.log(solve(5)); // 120

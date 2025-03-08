@@ -1,7 +1,9 @@
-let solve = function (n) {
-  if (n == 0) return;
-  solve(n - 1);
-  console.log(n);
+// print 1 to N integers
+
+let solve = function (N) {
+  if (N == 0) return;
+  solve(N - 1);
+  console.log(N);
 };
 
 solve(10);

@@ -1,8 +1,10 @@
-let solve = function (A) {
-  if (A == 1) return 1;
-  return solve(A - 1) + A;
+// Recurrsion - A function call it self.
+
+// find the sum of N Natural numbers
+
+let solve = function (N) {
+  if (N == 1) return 1;
+  return solve(N - 1) + N;
 };
 
-console.log(solve(5)); // 15
-
-console.log(solve(4)); // 10
+console.log(solve(5));
